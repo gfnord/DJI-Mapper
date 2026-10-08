@@ -3,13 +3,8 @@
 .gitignore
 .github
 
-# Build directories (keep build/web for local builds)
-!build/web
-build/linux
-build/windows
-build/macos
-build/android
-build/ios
+# Build directories (the web app is built inside Docker)
+build
 .dart_tool
 .metadata
 .packages
@@ -22,7 +17,6 @@ build/ios
 *~
 
 # Flutter/Dart files
-pubspec.lock
 .flutter-plugins
 .flutter-plugins-dependencies
 
